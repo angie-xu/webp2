@@ -24,7 +24,7 @@ place = ['IN <span style="color:transparent">A GREEN, MOSSY</span> TERRA<span st
 'IN DENS<span style="color:transparent">E WOODS</span>',
 'IN JAPAN',
 'AMONG <span style="color:transparent">SM</span>ALL <span style="color:transparent">H</span>ILLS',
-'<span style="color:transparent">IN S</span>OUT<span style="color:transparent">HERN F</span>RAN<span style="color:transparent">CE</span>',
+'<span style="color:transparent">IN S</span>THE<span style="color:transparent">HERN F</span>RAN<span style="color:transparent">CE</span>',
 'AM<span style="color:transparent">ONG H</span>I<span style="color:transparent">GH MOUNTAINS</span>',
 'ON <span style="color:transparent">AN IS</span>LAND',
 'IN <span style="color:transparent">A C</span>OLD<span style="color:transparent">,</span> WIND<span style="color:transparent">Y CLIMATE</span>',
@@ -40,9 +40,9 @@ place = ['IN <span style="color:transparent">A GREEN, MOSSY</span> TERRA<span st
 'IN A DESERT<span style="color:transparent">ED</span> CHURCH',
 'IN A METRO<span style="color:transparent">POLIS</span>',
 'UNDERWATER'],
-light_source = ['<span style="color:transparent">CANDLES</span>',
-'ALL<span style="color:transparent"> AVAILABLE LIGHTING</span>',
-'<span style="color:transparent">ELECTRI</span>CITY',
+time_of_day = ['<span style="color:transparent">MORNING</span>',
+'ALL<span style="color:transparent"> AFTERNOON</span>',
+'<span style="color:transparent">SUNSET</span>DAWN',
 '<span style="color:transparent">N</span>A<span style="color:transparent">TURAL </span>LIGHT'],
 inhabitants = ['PEOPLE WHO SLEEP <span style="color:transparent">VERY LITTLE</span>', 'VEGETARIANS', 'HORSES AND BIRDS', '<span style="color:transparent">PEOPLE SPEAKING MANY</span> LANGUAGES WEARING <span style="color:transparent">LITTLE OR NO</span> CLOTHING', 'ALL RACES <span style="color:transparent">OF MEN</span> REPRESENTED <span style="color:transparent">WEARING PREDOMINANTLY RED CLOTHING</span>', 'CHILDREN AND OLD PEOPLE', 'VARIOUS BIRDS AND FISH', 'LOVERS', 'FISHERMEN AND FAMILIES', 'PEOPLE WHO ENJOY EATING <span style="color:transparent">together</span>', 'PEOPLE WHO EAT A GREAT DEAL', 'COLLECTORS OF ALL TYPES', 'FRIENDS AND ENEMIES', 'PEOPLE WHO <span style="color:transparent">SLEEP ALMOST ALL THE</span> TIME', 'VERY TALL PEOPLE', '<span style="color:transparent">AM</span>ER<span style="color:transparent">ICAN</span> INDIANS', 'LITTLE BOYS', 'PEOPLE <span style="color:transparent">FROM MANY WALKS</span> OF LIFE', '<span style="color:transparent">NEGROS WEARING</span> ALL COLORS', 'FRIENDS', '<span style="color:transparent">FRENCH AND GERMAN</span> SPEAKING PEOPLE', 'PEOPLE WHO LOVE <span style="color:transparent">TO READ</span>'];
 
@@ -56,7 +56,7 @@ function choose(array) {
 }
 function stanza() {
     "use strict";
-    return '<span style="color:transparent">A HO</span>USE OF ' + choose(material) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + choose(place) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:transparent">U</span>SING ' + choose(light_source) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:transparent">INHABITED</span> BY ' + choose(inhabitants);
+    return '<span style="color:transparent">THE S</span>CENT OF ' + choose(material) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + choose(place) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:transparent">U</span>AT ' + choose(time_of_day) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:transparent">INHABITED</span> BY ' + choose(inhabitants);
 }
 function litany() {
     "use strict";
