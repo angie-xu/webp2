@@ -16,37 +16,56 @@ object = ['FLORAL',
 '<span style="color:transparent">FRESH </span>CINNAMON <span style="color:transparent">SPICE</span>',
 '<span style="color:transparent">S</span>WINE'],
 
-place = ['IN <span style="color:transparent">A BEAUTIFUL</span> TERRA<span style="color:transparent">IN</span>',
+place = ['IN <span style="color:transparent">A WARM</span> FIRE<span style="color:transparent">PLACE</span>',
 'IN A<span style="color:transparent"> TROPICAL </span><span style="color:transparent">RAIN</span>FOREST',
 'NEAR THE OCEAN',
 'BY LAKE <span style="color:transparent">ED</span>WARD',
-'IN A <span style="color:transparent">ABANDONED </span>MANSION',
+'IN A<span style="color:transparent">N ABANDONED </span>MANSION',
 'IN THE SHOPPING MALL',
 'IN THE HOUSE',
 'WITHIN THE HALL<span style="color:transparent">WAY</span>',
 'IN THE <span style="color:transparent">UNDER</span>GROUND <span style="color:transparent">BASEMENT</span>',
 'AT THE <span style="color:transparent">BACK</span>YARD',
-'BY THE <span style="color:transparent">WASTE</span>LAND',
+'BY <span style="color:transparent">THE WASTE</span>LAND',
 'IN A <span style="color:transparent">DAY</span>DREAM',
 'IN A<span style="color:transparent">N EMPTY BED</span>ROOM',
 'NEAR THE <span style="color:transparent">FISH </span>MART',
 'IN THE CAFE<span style="color:transparent">TERIA</span>',
 'NEAR THE PIER',
-'IN <span style="color:transparent">MI</span>CHI<span style="color:transparent">GAN</span>',
-'IN <span style="color:transparent">HEAVY JUNGLE UNDER</span>GROWTH',
-'IN <span style="color:transparent">A PA</span>LACE <span style="color:transparent">COVERED IN C</span>OLD',
+'IN THE BAR<span style="color:transparent">RACK</span>',
+'IN <span style="color:transparent">RAIN</span>WATER',
+'IN A <span style="color:transparent">TABLE</span>TOP <span style="color:transparent">COVERED IN C</span>OLD',
 'NEAR THE PORT',
-'AMONG OTHER <span style="color:transparent">HO</span>USES',
-'IN A DESERT<span style="color:transparent">ED</span> CHURCH',
-'IN A METRO<span style="color:transparent">POLIS</span>',
-'UNDERWATER'],
+'WITHIN THE <span style="color:transparent">RAIN</span>STORM',
+'BEYOND THE <span style="color:transparent">RAIN</span> BOW',
+'IN A MARKET<span style="color:transparent">PLACE</span>',
+'IN THE DORMS'],
 
-time_of_day = ['<span style="color:transparent">MORNING</span>',
-'ALL<span style="color:transparent"> AFTERNOON</span>',
-'<span style="color:transparent">SUNSET</span>DAWN',
-'<span style="color:transparent">N</span>A<span style="color:transparent">TURAL </span>LIGHT'],
+time_of_day = ['IN THE MORNING',
+'IN THE <span style="color:transparent">AFTER</span>NOON',
+'AT TWILIGHT',
+'AT <span style="color:transparent">MID</span>NIGHT',
+'AT DAWN',
+'AT DAY<span style="color:transparent">BREAK'],
 
-inhabitants = ['PEOPLE WHO SLEEP <span style="color:transparent">VERY LITTLE</span>', 'VEGETARIANS', 'HORSES AND BIRDS', '<span style="color:transparent">PEOPLE SPEAKING MANY</span> LANGUAGES WEARING <span style="color:transparent">LITTLE OR NO</span> CLOTHING', 'ALL RACES <span style="color:transparent">OF MEN</span> REPRESENTED <span style="color:transparent">WEARING PREDOMINANTLY RED CLOTHING</span>', 'CHILDREN AND OLD PEOPLE', 'VARIOUS BIRDS AND FISH', 'LOVERS', 'FISHERMEN AND FAMILIES', 'PEOPLE WHO ENJOY EATING <span style="color:transparent">together</span>', 'PEOPLE WHO EAT A GREAT DEAL', 'COLLECTORS OF ALL TYPES', 'FRIENDS AND ENEMIES', 'PEOPLE WHO <span style="color:transparent">SLEEP ALMOST ALL THE</span> TIME', 'VERY TALL PEOPLE', '<span style="color:transparent">AM</span>ER<span style="color:transparent">ICAN</span> INDIANS', 'LITTLE BOYS', 'PEOPLE <span style="color:transparent">FROM MANY WALKS</span> OF LIFE', '<span style="color:transparent">NEGROS WEARING</span> ALL COLORS', 'FRIENDS', '<span style="color:transparent">FRENCH AND GERMAN</span> SPEAKING PEOPLE', 'PEOPLE WHO LOVE <span style="color:transparent">TO READ</span>'];
+culprit = ['<span style="color:transparent">NIGHT</span>WALKERS',
+'HUNTER AND GATHERERS',
+'VAGRANTS',
+'A HERO<span style="color:transparent">INE</span>',
+'A <span style="color:transparent">GROUP OF </span>CHILD<span style="color:transparent">REN',
+'A COUPLE',
+'A CAT',
+'FOODIE',
+'SAILOR',
+'A LOVE<span style="color:transparent">D ONE</span>',
+'SOLDIERS',
+'FARMERS',
+'A NEIGHBOR',
+'A<span style="color:transparent">N OLD</span> MAN',
+'A DOG',
+'A CHEF',
+'A <span style="color:transparent">HOUSE</span>WIFE',
+'THE BREEZE'];
 
 function rand_range(maximum) {
     "use strict";
@@ -58,7 +77,7 @@ function choose(array) {
 }
 function stanza() {
     "use strict";
-    return 'A <span style="color:transparent">S</span>CENT OF ' + choose(object) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + choose(place) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; AT ' + choose(time_of_day) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:transparent">INHABITED</span> BY ' + choose(inhabitants);
+    return 'A <span style="color:transparent">S</span>CENT OF ' + choose(object) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + choose(place) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + choose(time_of_day) + '<br \>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LEFT BY ' + choose(culprit);
 }
 function litany() {
     "use strict";
