@@ -19,14 +19,14 @@ a {
  font-weight:bold;
  padding-bottom:21px;
 }
-#info {
+/* #info {
  top:0;
  right:0;
  bottom:0;
  position:absolute;
  opacity: 70%;
- height:55%;
- width:25%;
+ height:15%;
+ width:10%;
  color:#333;
  background:#fff;
  margin-left:6px;
@@ -34,4 +34,4 @@ a {
  border-bottom:thick #75BF9C dotted;
  padding:9px;
  font-size:80%
-}
+} */
