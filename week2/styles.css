@@ -30,8 +30,8 @@ a {
  color:#333;
  background:#fff;
  margin-left:6px;
- border-left:thin #75BF9C solid;
- border-bottom:thin #75BF9C solid;
+ border-left:thick #75BF9C dotted;
+ border-bottom:thick #75BF9C dotted;
  padding:9px;
  font-size:80%
 }
