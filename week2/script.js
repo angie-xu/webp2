@@ -94,5 +94,5 @@ function litany() {
 function produce_litany() {
     "use strict";
     litany();
-    setInterval(litany, 1000);
+    setInterval(litany, 1500);
 }
