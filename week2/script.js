@@ -34,7 +34,7 @@ place = ['IN <span style="color:transparent">A WARM</span> FIRE<span style="colo
 'NEAR THE PIER',
 'IN THE BAR<span style="color:transparent">RACK</span>',
 'IN <span style="color:transparent">RAIN</span>WATER',
-'IN A <span style="color:transparent">TABLE</span>TOP <span style="color:transparent">COVERED IN C</span>OLD',
+'IN A <span style="color:transparent">TABLE</span>TOP COVERED<span style="color:transparent"> IN C</span>OLD',
 'NEAR THE PORT',
 'WITHIN THE <span style="color:transparent">RAIN</span>STORM',
 'BEYOND THE <span style="color:transparent">RAIN</span> BOW',
