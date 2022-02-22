@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,600;0,700;1,600;1,700&family=Eczar:wght@400;500;600;700;800&family=Quintessential&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Staatliches&display=swap');
+
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background:#fff;
-  color:#aaa;
+  background:#cfe8dc;
+  color:#8D918D;
   margin:32pt 0 0 18pt;
-  font-family:Optima, sans-serif;
+  font-family: 'Cormorant';
   font-size:14pt;
 }
 a {
- color:#117;
+ color:#75BF9C;
  text-decoration:none;
 }
 #main {
@@ -22,13 +24,14 @@ a {
  right:0;
  bottom:0;
  position:absolute;
- height:100%;
+ opacity: 70%;
+ height:55%;
  width:25%;
  color:#333;
- background:#aaa;
+ background:#fff;
  margin-left:6px;
- border-left:thin #000 solid;
- border-bottom:thin #000 solid;
+ border-left:thin #75BF9C solid;
+ border-bottom:thin #75BF9C solid;
  padding:9px;
  font-size:80%
 }
