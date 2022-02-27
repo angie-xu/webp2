@@ -29,6 +29,9 @@ a {
   line-height: 30px;
   width:35%;
 }
+.cloud-container{
+  opacity: .5;
+}
 
 @keyframes flowing-clouds1 {
   0%   {left:0px;}
