@@ -1,0 +1,13 @@
+html, body {
+  margin:32pt 0 0 18pt;
+  font-size:12pt;
+  color: blue;
+}
+
+#main {
+ width:70%;
+}
+#main div {
+ font-weight:bold;
+ padding-bottom:21px;
+}
