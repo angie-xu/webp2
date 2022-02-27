@@ -1,15 +1,121 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Poppins:wght@800&display=swap');
 html, body {
   margin:32pt 0 0 18pt;
   font-size:12pt;
-  color: blue;
-  color:#459971;
   margin:32pt 0 0 18pt;
-  font-family: 'Cormorant';
   font-size:12pt;
+  text-align: center;
+  overflow: hidden;
 }
 
 a {
- color:#75BF9C;
+ color:#72559A;
  text-decoration:none;
 }
+
+.poem{
+  text-shadow: 2px 2px black;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  position: absolute;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 30px;
+  line-height: 30px;
+}
+
+
+@keyframes flowing-clouds1 {
+  0%   {left:0px;}
+
+  100% {left:1200px;}
+}
+
+.cloud1 {
+  position: absolute;
+  animation-name: flowing-clouds1;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.cloud1:active {
+  transform: scale(0.6);
+}
+
+
+@keyframes flowing-clouds2 {
+  0%   {right:0px;}
+
+  100% {right:800px;}
+}
+
+.cloud2{
+  position: relative;
+  animation-name: flowing-clouds2;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+
+.cloud2:active {
+  transform: rotate(-180deg) scale(2.0);
+}
+
+@keyframes flowing-clouds3 {
+  0%   {left:0px;}
+  50%  {left:400px;}
+  100% {left:0px;}
+}
+
+.cloud3{
+  position: absolute;
+  animation-name: flowing-clouds3;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+.cloud3:active {
+transform: skew(30deg, 20deg);}
+
+
+@keyframes flowing-clouds4 {
+  0%   {left:0px;}
+
+  100% {left:200px;}
+}
+
+.cloud4{
+  position: absolute;
+  animation-name: flowing-clouds4;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.cloud4:active {
+  transform: scale(2.6);
+}
+
+
+@keyframes flowing-clouds5 {
+  0%   {right:0px;}
+
+  100% {right:1000px;}
+}
+
+.cloud5{
+  position: absolute;
+  animation-name: flowing-clouds5;
+  animation-duration: 35s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.cloud5:active {
+transform: translate(120px, 50%);}

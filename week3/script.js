@@ -82,7 +82,7 @@ function stanza() {
 function litany() {
     "use strict";
     var last, text, main = document.getElementById('main');
-    if (8 > t) {
+    if (5 > t) {
         t += 1;
     } else {
         main.removeChild(document.getElementById('main').firstChild);
@@ -94,5 +94,5 @@ function litany() {
 function produce_litany() {
     "use strict";
     litany();
-    setInterval(litany, 1500);
+    setInterval(litany, 2000);
 }
