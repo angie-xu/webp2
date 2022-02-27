@@ -9,7 +9,7 @@ html, body {
 }
 
 a {
- color:#72559A;
+ color:#EEF2A6;
  text-decoration:none;
 }
 
@@ -26,8 +26,8 @@ a {
   text-align: center;
   top: 30px;
   line-height: 30px;
+  width:35%;
 }
-
 
 @keyframes flowing-clouds1 {
   0%   {left:0px;}
