@@ -1,13 +1,15 @@
+
 html, body {
   margin:32pt 0 0 18pt;
   font-size:12pt;
   color: blue;
+  color:#459971;
+  margin:32pt 0 0 18pt;
+  font-family: 'Cormorant';
+  font-size:12pt;
 }
 
-#main {
- width:70%;
-}
-#main div {
- font-weight:bold;
- padding-bottom:21px;
+a {
+ color:#75BF9C;
+ text-decoration:none;
 }
