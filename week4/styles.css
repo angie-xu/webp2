@@ -1,18 +1,60 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dongle:wght@700&family=Pacifico&family=Poppins:wght@400;800&family=Satisfy&display=swap');
+
+body{
+  background: darkorchid;
+  background: linear-gradient(to right, #060606, #494E51);
+  color: white;
+  font-family: 'Dongle';
+  text-shadow: 2px 2px #908C68;
 }
 
-h2 {
+#container{
+  border: 5px solid #FAEA65;
+  background-color:black;
+  margin: 20px;
+  padding: 20px;
+  width: 250px;
+  height: 550px;
   text-align: center;
+  /* Centers container */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
 }
 
-section {
-  margin: 20px auto;
-  text-align: center;
+#fortune{
+  border: 10px double #908C68;
+  /* background-color: #555555; */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 350px;
+  padding: 20px;
+  font-size: 1.5em;
+  line-height: 20px;
 }
 
-.color-div {
-  height: 60px;
-  background-color: green;
+h1{
+  text-shadow:3px 3px #A8A05B;
+  font-size: 3em;
+  line-height: 30px;
+  margin-top: 10px;
+
+}
+
+button {
+  background: linear-gradient(to right, #E3EAEE, #555555);
+  font-family: 'Amatic SC';
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  color: black;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+
 }
