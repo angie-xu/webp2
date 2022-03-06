@@ -1,60 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Cookie&family=Dongle:wght@700&family=Pacifico&family=Poppins:wght@400;800&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@700&family=Cookie&family=Dongle:wght@700&family=Pacifico&family=Patrick+Hand&family=Righteous&display=swap');
 
-body{
-  background: darkorchid;
-  background: linear-gradient(to right, #060606, #494E51);
-  color: white;
+body {
   font-family: 'Dongle';
-  text-shadow: 2px 2px #908C68;
+  text-align: center;
+  background-color: black;
 }
 
-#container{
-  border: 5px solid #FAEA65;
-  background-color:black;
-  margin: 20px;
-  padding: 20px;
-  width: 250px;
-  height: 550px;
+h1 {
   text-align: center;
-  /* Centers container */
+  font-family: "Pacifico";
+  /* color: #D8C692; */
+  color: #b4957c;
+  text-shadow:3px 3px black;
+  font-size: 30px;
+
+}
+
+section {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#fortune {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -35%);
+  width: 200px;
+  height: 400px;
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-radius: 20px;
 }
 
-#fortune{
-  border: 10px double #908C68;
-  /* background-color: #555555; */
-  margin-top: 30px;
-  margin-bottom: 20px;
-  height: 350px;
-  padding: 20px;
-  font-size: 1.5em;
-  line-height: 20px;
+#sunlight {
+ position: fixed;
+ right: 0px; top: 0px;
+ width: 40px;
+ height:40px;
+ background-color: #E3E4E2;
+ padding: 5px;
+ font-size: 20px;
+ cursor: pointer;
 }
 
-h1{
-  text-shadow:3px 3px #A8A05B;
-  font-size: 3em;
-  line-height: 30px;
-  margin-top: 10px;
-
-}
-
-button {
-  background: linear-gradient(to right, #E3EAEE, #555555);
-  font-family: 'Amatic SC';
-  font-weight: 700;
-  font-size: 20px;
-  border: none;
-  color: black;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  cursor: pointer;
-
+#read {
+  font-family: 'Poppins';
+  background-color:
 }

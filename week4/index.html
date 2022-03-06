@@ -1,24 +1,32 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
- <head>
-   <script src="utility.js"></script>
-   <link rel="stylesheet" href="styles.css">
-   <title> Fortune Teller </title>
- </head>
- <body>
-   <div id="container">
-     <div class="vertical-center">
-      <h1>Fortune Reading</h1>
+  <head>
+    <script src="utility.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title> Fortune Teller </title>
+  </head>
+  <body>
 
-      <div id="fortune"></div>
-      <!-- <br/><br/> -->
-
-      <button onclick="tellFortune()">Read my Fortune!</button>
-
-
-      </div>
+    <div class="container">
+      <button id="sunlight">☀</button>
     </div>
 
-  <script src="script.js"></script>
- </body>
+
+    <section>
+    <h1>Fortune Teller</h1>
+      <input type="text" placeholder="Your Name" id="myName"><br>
+      <input type="text" placeholder="Enter a number between 0 and 10" id="myInput" style="width: 220px;">        <br>
+    </section>
+
+    <button id="read" type="button" onclick="getInputValue();">Read My Fortune!</button>
+
+    <div id="display">    </div>
+    <br>
+    <div id="fortune">
+
+
+
+
+    <script src="script.js"></script>
+  </body>
 </html>
