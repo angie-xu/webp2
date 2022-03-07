@@ -13,6 +13,8 @@ h1 {
   color: #b4957c;
   text-shadow:3px 3px black;
   font-size: 30px;
+  line-height: 10px;
+  margin-top: 30px;
 
 }
 
@@ -27,7 +29,7 @@ section {
   top: 50%;
   transform: translate(-50%, -35%);
   width: 200px;
-  height: 360px;
+  height: 400px;
   padding-top: 100px;
   padding-left: 50px;
   padding-right: 50px;
