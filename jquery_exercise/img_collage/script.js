@@ -1,4 +1,4 @@
-let myImages = [{'src': 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg', 'height': '200px', 'width': '200px', 'top': '150px', 'left': '150px', 'caption': 'A special lad'}, {'src': 'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d', 'top': '180px', 'left': '300px', 'height': '250px', 'width': '250px', 'caption': 'A floofy boi'}, {'src': 'https://i.pinimg.com/originals/94/96/30/9496300b8da1e3ddf38c64f3260cf859.jpg', 'width': '250px', 'height': '250px', 'top': '435px', 'left': '150px', 'caption': 'A fella wearing sunglasses' }, {'src': 'https://imgk.timesnownews.com/66603010_1317351581756321_4675944928644445097_n_1570362730__rend_1_1.jpg?tr=w-360', 'width': '300px', 'height': '300px', 'top': '475px', 'left': '350px', 'caption': 'A sunny boi' }, {'src': 'https://s.hdnux.com/photos/51/50/21/10912852/3/rawImage.jpg', 'width': '420px', 'height': '375px', 'top': '190px', 'left': '600px', 'caption': 'Why is he driving?' },  ]
+let myImages = [{'src': 'https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-800x825.jpg', 'height': '200px', 'width': '200px', 'top': '100px', 'left': '50px', 'caption': 'A special lad'}, {'src': 'https://i.guim.co.uk/img/media/fe1e34da640c5c56ed16f76ce6f994fa9343d09d/0_174_3408_2046/master/3408.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=0d3f33fb6aa6e0154b7713a00454c83d', 'top': '100px', 'left': '400px', 'height': '250px', 'width': '250px', 'caption': 'A floofy boi'}, {'src': 'https://i.pinimg.com/originals/94/96/30/9496300b8da1e3ddf38c64f3260cf859.jpg', 'width': '250px', 'height': '250px', 'top': '435px', 'left': '150px', 'caption': 'A fella wearing sunglasses' }, {'src': 'https://imgk.timesnownews.com/66603010_1317351581756321_4675944928644445097_n_1570362730__rend_1_1.jpg?tr=w-360', 'width': '300px', 'height': '300px', 'top': '440px', 'left': '500px', 'caption': 'A sunny boi' }, {'src': 'https://s.hdnux.com/photos/51/50/21/10912852/3/rawImage.jpg', 'width': '420px', 'height': '375px', 'top': '80px', 'left': '900px', 'caption': 'Why is he driving?' },  ]
 
 function addImages(imageArray) {
   let container = $('#image-container')
@@ -9,6 +9,11 @@ function addImages(imageArray) {
   }
   addClick()
 }
+
+// $(function() {
+//   // accessing an element and CSS quickly
+//   $("body").css("background", "Red");
+//   }
 
 function createImage(imageObject) {
   // create the element to add to the page
