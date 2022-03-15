@@ -66,6 +66,19 @@ img {
   width: 300px;
 }
 
+#by {
+  margin-top: 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: underline;
+}
+
+#publications {
+  text-align: center;
+  position: relative;
+  left: -2.5%;
+}
+
 .grayscale {
   filter: grayscale(95%);
 }

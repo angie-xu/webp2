@@ -17,6 +17,7 @@ $(function() {
         let key = data['docs'][0].key;
 
         // let booksData;
+        $('#by').text(' By ' + searchTerm)
 
         $.getJSON(`https://openlibrary.org/authors/${key}/works.json`, function(worksData) {
           let booksData = worksData['entries'];
@@ -26,7 +27,7 @@ $(function() {
         } else {
           for (let i = 0; i < 10; i++) {
             let work = booksData[i]
-            $('#publications').append('<li>' + work.title + ' by ' + searchTerm + '</li>')
+            $('#publications').append('<li>' + work.title + '</li>')
           }
         }
         }).fail(function() {
