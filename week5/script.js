@@ -11,7 +11,7 @@ $(function() {
     if (searchTerm !== '') {
       // here we pass the API the topic as our "query"
 
-      $.getJSON(`https://openlibrary.org/search/authors.json?q=${searchTerm}`, function(data) { 
+      $.getJSON(`https://openlibrary.org/search/authors.json?q=${searchTerm}`, function(data) {
         //but, depending on what we search, we could get thousands of things or nothing
         //so we should account for the first case
         let key = data['docs'][0].key;
@@ -47,12 +47,12 @@ $(function() {
     let img = $("<img />",
     {
       src: 'img/book1.png',
-      id: 'landscape-image'
+      id: 'book-image'
     }
   )
 
   img.appendTo(".create-image")
-  $("#landscape-image").click(function() {
+  $("#book-image").click(function() {
     $(this).addClass("grayscale")
   })
 
