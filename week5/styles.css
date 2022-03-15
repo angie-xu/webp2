@@ -44,7 +44,7 @@ li {
 }
 
 .rectangle {
-  height: 100vh;
+  height: 100%;
   width: 82vh;
   background-color: white;
   border-left: blue;
@@ -54,7 +54,7 @@ li {
 }
 
 .rectangle2 {
-  height: 100vh;
+  height: 100%;
   width: 78vh;
   background-color: #C34A2C;
   position: absolute;
