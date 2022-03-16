@@ -27,7 +27,7 @@ $(function() {
         } else {
           for (let i = 0; i < 10; i++) {
             let work = booksData[i]
-            $('#publications').append('<li>' + work.title + '</li>')
+            $('#publications').replaceWith('<li>' + work.title + '</li>')
           }
         }
         }).fail(function() {
