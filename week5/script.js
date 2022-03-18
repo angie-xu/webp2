@@ -7,6 +7,7 @@ $(function() {
   $("#author-search").click(function() {
     let searchTerm = $("#author").val()
     $("#fail").text('')
+    $("#publications").html('')
     // make sure the searchTerm isn't empty
     if (searchTerm !== '') {
       // here we pass the API the topic as our "query"
@@ -27,7 +28,7 @@ $(function() {
         } else {
           for (let i = 0; i < 10; i++) {
             let work = booksData[i]
-            $('#publications').replaceWith('<li>' + work.title + '</li>')
+            $('#publications').append('<li>' + work.title + '</li>');
           }
         }
         }).fail(function() {
@@ -37,7 +38,7 @@ $(function() {
         // this could return
     }).fail(function() {
       //we can add a "fail" function to our AJAX request to do something if it fails
-      $('#fail').text("No authors with that last name.")
+      $('#fail').text("No authors with that name.")
       console.log("Try a different author.")
       })
     }
@@ -52,9 +53,15 @@ $(function() {
     }
   )
 
-  img.appendTo(".create-image")
-  $("#book-image").click(function() {
-    $(this).addClass("grayscale")
-  })
+  // img.appendTo(".create-image")
+  // $("#book-image").click(function() {
+  //   $(this).addClass("grayscale")
+  // })
+  //
+  // $("#book-image").hover(
+  //
+  // $(this).filter(':not(:animated)').animate({
+  //    margintop:'10px'
+  // },'slow');
 
 })

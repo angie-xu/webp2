@@ -4,12 +4,14 @@ body {
   font-family: 'Cormorant', serif;
   text-align: center;
   line-height: 25px;
+  color: white;
 }
 
 h2 {
   font-family: 'Playfair Display', serif;
   text-align: center;
 }
+
 
 button {
   font-family: 'Belgrano', serif;
@@ -36,16 +38,19 @@ section {
 }
 
 main {
-
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 li {
-  list-style: none;
+list-style: url('https://api.iconify.design/octicon/bookmark-fill-24.svg?color=white');
+color: white;
+text-align: left;
 }
 
 .rectangle {
   height: 100%;
-  width: 82vh;
+  width: 40%;
   background-color: white;
   border-left: blue;
   position: absolute;
@@ -55,7 +60,7 @@ li {
 
 .rectangle2 {
   height: 100%;
-  width: 78vh;
+  width: 95%;
   background-color: #C34A2C;
   position: absolute;
   top: 0;
@@ -69,19 +74,18 @@ img {
 #by {
   margin-top: 30px;
   font-size: 18px;
-  color: white;
+  color: #551606;
   text-decoration: underline;
 }
 
 #publications {
   text-align: center;
   position: relative;
-  left: -2.5%;
 }
 
-.grayscale {
+/* .grayscale {
   filter: grayscale(95%);
-}
+} */
 
 .right {
   position: fixed;
@@ -96,3 +100,29 @@ img {
   left: 0;
   cursor: pointer;
 }
+
+.book5 {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  animation: bounce 1.3s;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+  animation-iteration-count: infinite;
+  }
+
+  .book5:hover {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    cursor: pointer;
+  }
+
+@keyframes bounce {
+  from {
+    transform: translate3d(0, -30px, 0);
+    }
+  to {
+    transform: translate3d(0, 30px, 0);
+    }
+  }
