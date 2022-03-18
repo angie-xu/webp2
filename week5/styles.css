@@ -149,6 +149,9 @@ transform: scale(1.6);
 h2 {
   font-family: 'Playfair Display', serif;
   text-align: center;
+  background-color: #954535;
+  padding: 20px;
+
 }
 
 button {
