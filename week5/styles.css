@@ -78,13 +78,12 @@ transform: scale(1.6);
      white-space: nowrap;
      width: 1px;
    }
-   .circle {
+   .square {
      --bgc: #C34A2C;
      --w: 150px;
      align-items: center;
      background-color: var(--bgc);
-     border-radius: 50%;
-     color: #FFF;
+     border-radius: 10%;
      display: flex;
      height: var(--w);
      justify-content: center;
