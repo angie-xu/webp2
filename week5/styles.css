@@ -5,19 +5,15 @@ body {
   text-align: center;
   line-height: 25px;
   color: white;
-}
-
-a {
-  text-decoration: none;
-  color: white;
+  cursor: url("https://api.iconify.design/octicon/pencil-16.svg?color=white&width=20&height=20"), default;
 }
 
 .books {
   width: 150px;
+  cursor: url("https://api.iconify.design/octicon/pencil-16.svg?width=20&height=20"), default;
 }
 
 .bk1 {
-  cursor: pointer;
   position: absolute;
 }
 
@@ -25,8 +21,13 @@ a {
   transform: scale(0.6);
 }
 
+.bk1:active {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  cursor: url("https://api.iconify.design/octicon/pencil-16.svg?width=20&height=20"), default;
+}
+
 .bk2 {
-  cursor: pointer;
   position: relative;
 }
 
@@ -35,7 +36,6 @@ a {
 }
 
 .bk3 {
-  cursor: pointer;
   position: relative;
 }
 
@@ -44,7 +44,6 @@ a {
 }
 
 .bk4 {
-  cursor: pointer;
   position: relative;
 }
 
@@ -227,20 +226,6 @@ img {
   filter: grayscale(95%);
 } */
 
-.right {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  cursor: pointer;
-}
-
-.left {
-  position: fixed;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-}
-
 .book5 {
   position: fixed;
   bottom: 30px;
@@ -255,7 +240,7 @@ img {
     filter: gray;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    cursor: pointer;
+    cursor: url("https://api.iconify.design/octicon/pencil-16.svg?width=20&height=20"), default;
   }
 
 @keyframes bounce {
