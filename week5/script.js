@@ -18,7 +18,7 @@ $(function() {
         let key = data['docs'][0].key;
 
         // let booksData;
-        $('#by').text(' By ' + searchTerm)
+        $('#by').text('Books By ' + searchTerm + ':')
 
         $.getJSON(`https://openlibrary.org/authors/${key}/works.json`, function(worksData) {
           let booksData = worksData['entries'];
@@ -44,6 +44,8 @@ $(function() {
     }
     //reset the input
     $('#author').val('')
+
+    $('#search').text('Type another author to search again')
   })
 
     let img = $("<img />",

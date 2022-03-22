@@ -8,6 +8,24 @@ body {
   cursor: url("https://api.iconify.design/octicon/pencil-16.svg?color=white&width=20&height=20"), default;
 }
 
+.txtbox {
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  top: 50px;
+  right: 50px;
+  position: fixed;
+  border-radius: 11%;
+  color: black;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border: red solid;
+
+}
+
 .books {
   width: 150px;
   cursor: url("https://api.iconify.design/octicon/pencil-16.svg?width=20&height=20"), default;
@@ -222,6 +240,10 @@ img {
 #publications {
   text-align: center;
   position: relative;
+}
+
+#search {
+color: #551606;  
 }
 
 /* .grayscale {
