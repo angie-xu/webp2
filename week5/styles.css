@@ -11,19 +11,18 @@ body {
 .txtbox {
   height: 100px;
   width: 200px;
-  background-color: white;
+  background-color: #C34A2C;
   top: 50px;
   right: 50px;
   position: fixed;
-  border-radius: 11%;
-  color: black;
+  border-radius: 5%;
+  color: white;
   text-align: center;
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 30px;
-  border: red solid;
-
+  border-style: solid;
 }
 
 .books {
@@ -75,7 +74,7 @@ transform: scale(1.6);
      display: inline-flex;
      user-select: none;
    }
-   .chk::before {
+   .chk:before {
      --ico-check: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M14 2.5l-8.5 8.5-3.5-3.5-1.5 1.5 5 5 10-10z" fill="white"></path></svg>');
      background: silver var(--ico-check) center center/70% no-repeat;
      border-radius: 0.25rem;
@@ -243,7 +242,7 @@ img {
 }
 
 #search {
-color: #551606;  
+color: #551606;
 }
 
 /* .grayscale {

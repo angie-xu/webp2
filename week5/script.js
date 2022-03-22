@@ -45,7 +45,7 @@ $(function() {
     //reset the input
     $('#author').val('')
 
-    $('#search').text('Type another author to search again')
+    $('#search').text('Type another author to search again.')
   })
 
     let img = $("<img />",
