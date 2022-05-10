@@ -12,3 +12,12 @@
     transform: translate(-50%, -50%);
     position: absolute;
   }
+
+  #small-container {
+      background-color:white;
+      border-radius: 10px;
+      width: 600px;
+      padding: 40px;
+      margin: 0 auto;
+      margin-top: 50px;
+  }
