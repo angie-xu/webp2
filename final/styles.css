@@ -39,9 +39,10 @@
   }
 
   #div2 {
-    background-color: blue;
+    /* background-color: blue; */
     grid-column: 2;
     grid-row: 2;
+    text-align: left;
   }
 
 
@@ -93,3 +94,7 @@
     color: rgb(149, 149, 149);
     border: none;
     }
+
+img{
+    width: 150px;;
+}
